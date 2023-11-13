@@ -12,7 +12,8 @@
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:ci": "jest --runInBand",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "npx plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "14.0.1",
