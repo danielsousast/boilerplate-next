@@ -17,7 +17,7 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "react",
+        "react"
     ],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
